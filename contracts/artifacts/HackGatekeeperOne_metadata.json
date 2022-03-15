@@ -1,0 +1,59 @@
+{
+	"compiler": {
+		"version": "0.6.0+commit.26b70077"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "bytes8",
+						"name": "_gateKey",
+						"type": "bytes8"
+					},
+					{
+						"internalType": "address",
+						"name": "_gatekeeperAddr",
+						"type": "address"
+					}
+				],
+				"name": "setEntrant",
+				"outputs": [],
+				"stateMutability": "payable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"methods": {}
+		},
+		"userdoc": {
+			"methods": {}
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/HackGatekeeperOne.sol": "HackGatekeeperOne"
+		},
+		"evmVersion": "istanbul",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/HackGatekeeperOne.sol": {
+			"keccak256": "0xab97e3e4f8de25b99e11cfa6b54707886a9cf4e13b933907717872c738c9d9a7",
+			"urls": [
+				"bzz-raw://36c914ca9165de748fe02b3b1d15fbc14bbdba57f661bd174cc36eb08e8552a8",
+				"dweb:/ipfs/QmPeNeAtESyAe7c1MWuUTQ6pvwUSLB3D7ESNf6yr8RfVtV"
+			]
+		}
+	},
+	"version": 1
+}
